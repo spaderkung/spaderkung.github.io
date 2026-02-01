@@ -18,22 +18,22 @@ rect(width/2, height/2, width*0.6, height*0.6, width*0.3, 0, width*0.3, 0);
 Some more organic shapes can easily be created using curves and vertices. There are some built-in possibilities in p5. Be aware that between p5 1.x and 2.0 some creative control was lost when the _curveVertex_ was removed and the _splineVertex_ was added. Here, after creating the four corners the p5 function _splineVertex_ is used to draw a smooth continous curve which creates this beautiful rectangle in gruvbox yellow `#FABD2F`.
 
 ```js
-    // Centered rectangle
-    let x0 = width * 0.3;
-    let y0 = height * 0.3;
-    let nodes = [
-      { x: x0, y: y0},
-      { x: width - x0, y: y0},
-      { x: width - x0, y: height - y0},
-      { x: x0, y: height - y0},
-    ]
+// Centered rectangle
+let x0 = width * 0.3;
+let y0 = height * 0.3;
+let nodes = [
+  { x: x0, y: y0},
+  { x: width - x0, y: y0},
+  { x: width - x0, y: height - y0},
+  { x: x0, y: height - y0},
+]
 
-    // curveVertex is removed in p5.js 2.0
-    beginShape();
-    for (let i = 0; i < nodes.length; i++) {
-      let n = nodes[i];
-      splineVertex(n.x, n.y);
-    }
-    endShape(CLOSE);
+// curveVertex is removed in p5.js 2.0
+beginShape();
+for (let i = 0; i < nodes.length; i++) {
+  let n = nodes[i];
+  splineVertex(n.x, n.y);
+}
+endShape(CLOSE);
 ```
 <p align="center"><img src="assets/rect.png" alt="drawing" width="80%"/></p>
