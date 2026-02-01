@@ -14,3 +14,26 @@ Standard functions exists for changing the corner radius. This leaf has the gree
 rect(width/2, height/2, width*0.6, height*0.6, width*0.3, 0, width*0.3, 0);
 ```
 <p align="center"><img src="assets/rect corn.png" alt="drawing" width="80%"/></p>
+
+Some more organic shapes can easily be created using curves and vertices. There are some built-in possibilities in p5. Be aware that aftewr p5 1.x some creative control was lost when the _curveVertex_ was removed and the _splineVertex_ was added.
+
+```js
+    // Centered rectangle
+    let x0 = width * 0.3;
+    let y0 = height * 0.3;
+    let nodes = [
+      { x: x0, y: y0},
+      { x: width - x0, y: y0},
+      { x: width - x0, y: height - y0},
+      { x: x0, y: height - y0},
+    ]
+
+    // curveVertex is removed in p5.js 2.0
+    beginShape();
+    for (let i = 0; i < nodes.length; i++) {
+      let n = nodes[i];
+      splineVertex(n.x, n.y);
+    }
+    endShape(CLOSE);
+```
+<p align="center"><img src="assets/rect.png" alt="drawing" width="80%"/></p>
