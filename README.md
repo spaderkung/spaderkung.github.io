@@ -36,3 +36,7 @@ for (let i = 0; i < nodes.length; i++) {
 endShape(CLOSE);
 ```
 <p align="center"><img src="assets/rect.png" alt="drawing" width="80%"/></p>
+
+What happens when an extra node is added on each side? With _splineVertex_ it looks like this where the eight square nodes are shown.
+<p align="center"><img src="assets/rect node 2.png" alt="drawing" width="80%"/></p>
+
