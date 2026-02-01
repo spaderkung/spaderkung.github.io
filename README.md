@@ -8,5 +8,4 @@ With p5 (and I believe html canvas as well) an rectangle is easily created. The 
 rect(width/2, height/2, width*0.6, height*0.6);
 ```
 
-asdf
-![image description](assets/rect_0.png)
+<img src="assets/rect_0.png" alt="drawing" width="80%"/>
