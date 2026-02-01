@@ -15,7 +15,7 @@ rect(width/2, height/2, width*0.6, height*0.6, width*0.3, 0, width*0.3, 0);
 ```
 <p align="center"><img src="assets/rect corn.png" alt="drawing" width="80%"/></p>
 
-Some more organic shapes can easily be created using curves and vertices. There are some built-in possibilities in p5. Be aware that aftewr p5 1.x some creative control was lost when the _curveVertex_ was removed and the _splineVertex_ was added.
+Some more organic shapes can easily be created using curves and vertices. There are some built-in possibilities in p5. Be aware that aftewr p5 1.x some creative control was lost when the _curveVertex_ was removed and the _splineVertex_ was added. After creating the four corners the p5 function _splineVertex_ is used to draw a smooth continous curve which creates this beautiful rectangle in gruvbox yellow `#FABD2F`.
 
 ```js
     // Centered rectangle
