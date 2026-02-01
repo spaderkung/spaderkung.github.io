@@ -7,6 +7,10 @@ With p5 (and I believe html canvas as well) an rectangle is easily created. The 
 ```js
 rect(width/2, height/2, width*0.6, height*0.6);
 ```
-
 <p align="center"><img src="assets/rect_0.png" alt="drawing" width="80%"/></p>
 
+Standard functions exists for changing the corner radius. This leaf has the greenish color `#689d6a` also from the gruvbox palette
+```js
+rect(width/2, height/2, width*0.6, height*0.6, width*0.3, 0, width*0.3, 0);
+```
+<p align="center"><img src="assets/rect corn.png" alt="drawing" width="80%"/></p>
