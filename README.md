@@ -7,4 +7,4 @@ With p5 (and I believe html canvas as well) an rectangle is easily created. The 
 ```js
 rect(width/2, height/2, width*0.6, height*0.6);
 ```
-![image description](/assets/images/rect_0.png)
+![image description](rect_0.png)
