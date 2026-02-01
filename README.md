@@ -28,7 +28,6 @@ let nodes = [
   { x: x0, y: height - y0},
 ]
 
-// curveVertex is removed in p5.js 2.0
 beginShape();
 for (let i = 0; i < nodes.length; i++) {
   let n = nodes[i];
