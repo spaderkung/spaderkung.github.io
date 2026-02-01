@@ -1,5 +1,5 @@
 body {
-  background-color: #282828; /* example: Gruvbox dark */
+  background-color: #fbf1c7; /* example: Gruvbox dark */
 }
   
 # Shapes
