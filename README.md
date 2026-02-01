@@ -1,4 +1,6 @@
-<body bgcolor=0>
+body {
+  background-color: #282828; /* example: Gruvbox dark */
+}
   
 # Shapes
 ## 2026-02-01 In progress
