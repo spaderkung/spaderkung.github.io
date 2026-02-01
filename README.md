@@ -37,6 +37,6 @@ endShape(CLOSE);
 ```
 <p align="center"><img src="assets/rect.png" alt="drawing" width="80%"/></p>
 
-What happens when an extra node is added on each side? With _splineVertex_ it makes the round square wobbly like this where the eight square nodes are shown.
+What happens when an extra node is added on each side? With _splineVertex_ it makes the round square wobbly like this where the eight square nodes are shown. This type of curve is very easy to use but there is little control of the curvature. 
 <p align="center"><img src="assets/rect node 2.png" alt="drawing" width="80%"/></p>
 
