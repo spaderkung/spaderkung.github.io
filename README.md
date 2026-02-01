@@ -1,5 +1,3 @@
-<div bgcolor="#FFA500">
-  
 # Shapes
 ## 2026-02-01 In progress
 
